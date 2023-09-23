@@ -56,7 +56,7 @@ camera.position.z = objToRender === "dino" ? 25 : 500;
 
 //Add lights to the scene, so we can actually see the 3D model
 const topLight = new THREE.DirectionalLight(0xffffff, 1); // (color, intensity)
-topLight.position.set(500, 500, 500) //top-left-ish
+topLight.position.set(1500, 1500, 500) //top-left-ish
 topLight.castShadow = true;
 scene.add(topLight);
 
